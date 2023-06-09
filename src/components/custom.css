@@ -33,17 +33,17 @@
 }
 
 .banner-pop {
-  width: 175px;
-  height: 175px;
+  width: 110px;
+  height: 110px;
   background-color: orangered;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 26px;
+  font-size: 16px;
   border-radius: 50%;
   position: absolute;
-  left: 300px;
-  top: 100px;
+  top: 160px;
+  margin-left: 30%;
 }
 
 .form-section {
@@ -167,6 +167,7 @@
 
 .iwt {
   max-width: 500px;
+  width: 100%;
 }
 
 .col-left {
@@ -179,9 +180,10 @@
 
 .img-s {
   display: flex;
-  width: 70%;
+  width: 90%;
   gap: 40px;
   margin: 0 auto;
+  padding: 40px 0px;
   text-align: left;
 }
 
@@ -204,5 +206,75 @@
 .footer-links {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+@media (max-width: 749px) {
+  .form-section {
+    gap: 0px;
+    flex-direction: column;
+  }
+  .form-section .col1 {
+    margin-top: -30px;
+    width: 100%;
+  }
+  .form-section .col2 {
+    width: 100%;
+  }
+  .col1 .book {
+    max-width: 275px;
+  }
+  .header-main .header-reviews {
+    max-width: 100px;
+    margin-right: 0px;
+    margin-bottom: -17px;
+  }
+
+  .header-main .header-logo {
+    max-width: 160px;
+    margin-bottom: -11px;
+    z-index: 9999;
+    position: relative;
+    left: 0px;
+  }
+  .img-s {
+    display: flex;
+    width: 90%;
+    gap: 0px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: left;
+    flex-direction: column-reverse;
+  }
+  .img-s .col-left {
+    width: 100%;
+  }
+  .col-right {
+    width: 100%;
+  }
+  .image-section h2 {
+    color: midnightblue;
+    font-size: 1.8rem;
+    margin-bottom: 0px;
+  }
+  .iwt {
+    max-width: 100%;
+  }
+  .btn-submit {
+    font-size: 15px;
+  }
+  .col2 .form {
+    padding-bottom: 40px;
+  }
+  .btn {
+    font-size: 15px;
+  }
+  .banner-pop {
+    top: 60px;
+    margin-left: 50px;
+    width: 60px;
+    height: 60px;
+    font-size: 9px;
+  }
 }
