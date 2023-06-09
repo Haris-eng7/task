@@ -1,0 +1,208 @@
+.header-main {
+  display: flex;
+  width: 100%;
+  max-width: 1550px;
+  background-color: white;
+}
+.header-main .header-logo {
+  max-width: 230px;
+  margin-bottom: -21px;
+  z-index: 9999;
+  position: relative;
+  left: -50px;
+}
+.header-main .header-reviews {
+  max-width: 160px;
+  margin-right: -120px;
+  margin-bottom: -17px;
+}
+
+.header-main .logo {
+  width: 50%;
+}
+
+.header-main .reviews {
+  width: 50%;
+}
+.banner-image {
+  max-width: 100%;
+}
+.banner-section {
+  max-width: 1550px;
+  margin: 0 auto;
+}
+
+.banner-pop {
+  width: 175px;
+  height: 175px;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  border-radius: 50%;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}
+
+.form-section {
+  display: flex;
+  gap: 80px;
+  max-width: 1150px;
+  padding: 0px 20px;
+}
+.form-section .col1 {
+  width: 50%;
+  text-align: left;
+  margin-top: -60px;
+}
+.form-section .col2 {
+  margin-top: 30px;
+  width: 50%;
+}
+.form-section h2 {
+  color: midnightblue;
+  font-size: 1.8rem;
+  margin: 0px;
+}
+
+.form-section .col1 h3 {
+  color: midnightblue;
+  margin: 0px;
+  font-size: 1.2rem;
+}
+
+.form-section .col1 p {
+  color: midnightblue;
+  font-size: 20px;
+}
+
+.form-section .col1 li {
+  color: midnightblue;
+  font-size: 20px;
+}
+.btn {
+  color: white;
+  background-color: orangered;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+}
+.btn-submit {
+  color: white;
+  background-color: orangered;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea {
+  border: 0px solid #777;
+  border-radius: 5px;
+  font-family: inherit;
+  padding: 8px 8px;
+  font-size: 15px;
+
+  margin-bottom: 0px;
+  margin-top: 5px;
+  display: block;
+  width: 95%;
+}
+.form-control label {
+  font-size: 17px;
+}
+
+.col2 .form {
+  background-color: #20b2aa;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+.col2 form {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.custom select {
+  width: 100% !important;
+}
+
+.form h3 {
+  font-size: 1.4rem;
+  padding-top: 40px;
+  max-width: 330px;
+  margin: 0 auto;
+}
+
+.cst-check {
+  float: left;
+  width: 12px !important;
+  margin-top: 14px !important;
+  margin-right: 10px;
+}
+
+.image-section h2 {
+  color: midnightblue;
+  font-size: 2rem;
+}
+.image-section p {
+  color: midnightblue;
+  font-size: 20px;
+}
+
+.image-section {
+  max-width: 1550px;
+  background-color: skyblue;
+  margin-top: 40px;
+}
+
+.iwt {
+  max-width: 500px;
+}
+
+.col-left {
+  width: 50%;
+}
+.col-right {
+  width: 50%;
+  align-self: center;
+}
+
+.img-s {
+  display: flex;
+  width: 70%;
+  gap: 40px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer {
+  width: 100%;
+  background-color: seagreen;
+  color: white;
+  max-width: 1550px;
+}
+.footer ul {
+  list-style: none;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
